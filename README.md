@@ -1,14 +1,23 @@
 # PipeWire-switch-output
 Simple script to change PipeWire output between two sinks
 
-### Dependecies
+## Dependecies
 
 - [WirePlumber](https://github.com/PipeWire/wireplumber)
 - [notify-send.sh](https://github.com/vlevit/notify-send.sh) (for desktop notifications)
 - grep
 
 
-### Configuration
+## Istallation
+
+Just clone repository and move `switcher.sh` into your _scripts_ directory  
+
+Installation example:   
+`git clone https://github.com/onezerodan/PipeWire-switch-output.git`  
+`cd PipeWire-switch-output`  
+`sudo mv switcher.sh /usr/bin`
+
+## Configuration
 **All you need - just specify devices**   
   
 
