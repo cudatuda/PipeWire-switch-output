@@ -22,7 +22,7 @@ device=`wpctl status | grep -A3 -m 1 Sinks | tail -n 3 | grep $anotherDevice | g
 
 
 
-if [[ "$(wpctl status | grep -A3 -m 1 Sinks | tail -n 3 | grep "*")" = *"$headphonesName"* ]]; then	
+if [[ "$(wpctl status | grep -A3 -m 1 Sinks | tail -n 3 | grep "\*")" = *"$headphonesName"* ]]; then	
 	let nonActive=$device
 	nonActiveName=$anotherDevice
 	nonActiveIcon=speaker
